@@ -1,0 +1,33 @@
+header{
+    height: 80px;
+    background-color: red;
+    padding-left: 2rem;
+    
+}
+
+main{
+    max-width: 800px;
+    background-color: gray;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.title{
+    display: inline-block;
+    color: black;
+    vertical-align: middle;
+
+}
+.Add{
+    border-color: gray;
+    border-radius: 10px;
+    padding-top: 1rem;
+}
+
+h2 {
+    font-weight: 300;
+}
