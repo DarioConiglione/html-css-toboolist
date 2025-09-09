@@ -1,6 +1,6 @@
 header{
     height: 80px;
-    background-color: red;
+    background-color: gray;
     padding-left: 2rem;
     
 }
@@ -10,6 +10,7 @@ main{
     background-color: gray;
     margin: 20px auto;
     padding: 0 15px;
+    border-radius: 8px;
 }
 
 .logo{
