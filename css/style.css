@@ -5,6 +5,10 @@ header{
     
 }
 
+body{
+    font-family: sans-serif;
+}
+
 main{
     max-width: 800px;
     background-color: gray;
@@ -31,4 +35,47 @@ main{
 
 h2 {
     font-weight: 300;
+    display: inline-block;
+}
+
+#editorial{
+    background-color: aqua;
+    border-radius: 12px;
+}
+
+#q1{
+    background-color: blueviolet;
+    border-radius: 12px;
+}
+
+#recruiting{
+    background-color: green;
+    border-radius: 12px;
+}
+
+#website{
+    background-color: pink;
+    border-radius: 12px;
+}
+
+#sales{
+    background-color: greenyellow;
+    border-radius: 12px;
+}
+
+#mobile{
+    background-color: orange;
+    border-radius: 12px;
+}
+
+.check{
+    color: green;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.cross{
+    color: red;
+    font-weight: bold;
+    margin-right: 5px;
 }
