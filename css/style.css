@@ -1,19 +1,20 @@
 header{
     height: 80px;
-    background-color: gray;
+    background-color: white;
     padding-left: 2rem;
     
 }
 
 body{
     font-family: sans-serif;
+    background-color: gray;
 }
 
 main{
     max-width: 800px;
-    background-color: gray;
-    margin: 20px auto;
-    padding: 0 15px;
+    background-color: white;
+    margin: 25px auto;
+    padding: 0 20px;
     border-radius: 8px;
 }
 
@@ -29,43 +30,58 @@ main{
 }
 .Add{
     border-color: gray;
-    border-radius: 10px;
-    padding-top: 1rem;
+    padding: 8px 12px;
+    button{
+        border-radius: 8px;
+    }
 }
 
 h2 {
     font-weight: 300;
     display: inline-block;
+    margin-bottom: 5px;
 }
 
-#editorial{
+.editorial{
     background-color: aqua;
     border-radius: 12px;
+    padding: 7px;
+    font-size: small;
 }
 
-#q1{
+.q1{
     background-color: blueviolet;
     border-radius: 12px;
+    padding: 7px;
+    font-size: small;
 }
 
-#recruiting{
+.recruiting{
     background-color: green;
     border-radius: 12px;
+    padding: 7px;
+    font-size: small;
 }
 
-#website{
+.website{
     background-color: pink;
     border-radius: 12px;
+    padding: 7px;
+    font-size: small;
 }
 
-#sales{
+.sales{
     background-color: greenyellow;
     border-radius: 12px;
+    padding: 7px;
+    font-size: small;
 }
 
-#mobile{
+.mobile{
     background-color: orange;
     border-radius: 12px;
+    padding: 7px;
+    font-size: small;
 }
 
 .check{
@@ -79,3 +95,8 @@ h2 {
     font-weight: bold;
     margin-right: 5px;
 }
+
+p{
+    margin: 10px 0
+}
+
