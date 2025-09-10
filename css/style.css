@@ -6,15 +6,15 @@ header{
 }
 
 body{
-    font-family: sans-serif;
-    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e8e9ea;
 }
 
 main{
     max-width: 800px;
     background-color: white;
     margin: 25px auto;
-    padding: 0 20px;
+    padding: 30px 20px;
     border-radius: 8px;
 }
 
@@ -28,12 +28,25 @@ main{
     vertical-align: middle;
 
 }
+
 .Add{
-    border-color: gray;
     padding: 8px 12px;
-    button{
-        border-radius: 8px;
-    }
+
+}
+
+.add-primary{
+    background-color:#47adf1;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    border: none;
+}
+
+.add-secondary{
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+    color: gray;
+    border: none;
 }
 
 h2 {
@@ -43,42 +56,42 @@ h2 {
 }
 
 .editorial{
-    background-color: aqua;
+    background-color: #47adf1;
     border-radius: 12px;
     padding: 7px;
     font-size: small;
 }
 
 .q1{
-    background-color: blueviolet;
+    background-color: #9c72e4;
     border-radius: 12px;
     padding: 7px;
     font-size: small;
 }
 
 .recruiting{
-    background-color: green;
+    background-color: #64c0a9;
     border-radius: 12px;
     padding: 7px;
     font-size: small;
 }
 
 .website{
-    background-color: pink;
+    background-color:#d863a1;
     border-radius: 12px;
     padding: 7px;
     font-size: small;
 }
 
 .sales{
-    background-color: greenyellow;
+    background-color: #b0c926;
     border-radius: 12px;
     padding: 7px;
     font-size: small;
 }
 
 .mobile{
-    background-color: orange;
+    background-color: #f29e33;
     border-radius: 12px;
     padding: 7px;
     font-size: small;
@@ -88,12 +101,26 @@ h2 {
     color: green;
     font-weight: bold;
     margin-right: 5px;
+    padding-left: 3px;
+    
+}
+
+.border{
+    display: inline-block;
+    border: 3px solid;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
 }
 
 .cross{
     color: red;
     font-weight: bold;
     margin-right: 5px;
+    padding-left: 3px;
+    
+    
 }
 
 p{
